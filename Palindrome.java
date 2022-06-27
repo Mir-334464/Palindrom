@@ -8,13 +8,13 @@ class Palindrome
         {
          
      Scanner sc=new Scanner(System.in);
-     System.out.println("Entered Number To Check Whether It is Palindrome or Not");
+     System.out.println("Entered Number To Check Whether It Is Palindrome or Not");
 
-     int N=sc.nextInt();
+      int N=sc.nextInt();
 
       int rev=0, rem;
         
-          int i=N;
+      int i=N;
 
       while(i!=0)
 
@@ -22,18 +22,18 @@ class Palindrome
 
       rem=i%10;
        
-        rev=(rev*10)+rem;
+      rev=(rev*10)+rem;
 
-       i=i/10;
+      i=i/10;
       
       }
          
          if(N==rev)
-          System.out.println("Entered Number is Palindrome");
+          System.out.println(+N+" is Palindrome Number");
 
          else
       
-           System.out.println("Entered Number is not a Palindrome");
+           System.out.println(+N+" is not a Palindrome Number");
 
                  }
 
